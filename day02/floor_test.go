@@ -13,7 +13,7 @@ func TestFinalFloor(t *testing.T) {
 		{"simple up", "(", 1, false},
 		{"simple down", ")", -1, false},
 		{"mixed 1", "()()", 0, false},
-		{"mixed 2", "(()())", 2, false},
+		{"mixed 2", "(()())", 0, false},
 		{"back to zero", ")(", 0, false},
 		{"more downs", ")))", -3, false},
 		{"invalid char", "(a)", 0, true},
