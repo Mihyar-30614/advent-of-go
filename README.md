@@ -23,9 +23,10 @@ dayXX/
 ├── README.md        # Problem description
 ├── solution.go     # Your implementation
 └── solution_test.go
+```
 
 To see detailed test output:
 
 ```bash
-go test -v ./...
-
+go test -v
+```
